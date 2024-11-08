@@ -64,7 +64,7 @@ io.on("connection", (socket) => {
 
        
         
-        if (disconnectedUser.data.ip) {
+        if (disconnectedUser?.data?.ip) {
 
             const { id,
                 ip,
